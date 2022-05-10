@@ -1,0 +1,50 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100&display=swap');
+
+
+body{
+    font-family: 'Open Sans' , sans-serif;
+}
+
+li{
+    list-style: none;
+}
+
+
+.menu ul{
+    background-color: #938DF8;
+}
+
+.menu li{
+    list-style: none;
+}
+
+.menu a {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.title{
+    color: #938DF8;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.subtitle{
+    font-size: 24px;
+    color: #EDEAEA
+
+}
+
+.intro{
+    font-family: 'ABeeZee' sans-serif;
+}
+
+
+section h1{
+    font-size: 24px;
+    color: #49BFB3;
+}
