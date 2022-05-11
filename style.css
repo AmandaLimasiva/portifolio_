@@ -2,6 +2,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100&display=swap');
 
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body{
     font-family: 'Open Sans' , sans-serif;
 }
@@ -11,8 +17,31 @@ li{
 }
 
 
-.menu ul{
+.menu{
+    position: fixed;
+    width: 100%;
     background-color: #938DF8;
+    display: flex;
+    justify-content: flex-end ;
+}
+
+.lista_menu{
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+    padding: 20px;
+}
+
+.intro-content{
+    background-color: #f8f1f1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.intro-content figure{
+    margin-bottom: 20px;
 }
 
 .menu li{
@@ -35,16 +64,67 @@ li{
 
 .subtitle{
     font-size: 24px;
-    color: #EDEAEA
+    color: #8f8f8f;
+    margin-bottom: 20px;
 
 }
 
 .intro{
     font-family: 'ABeeZee' sans-serif;
+    color: #000;
+    font-size: 16px;
+    padding: 25px;
+    max-width: 490px;
+    text-align: center;
 }
 
 
 section h1{
     font-size: 24px;
     color: #49BFB3;
+    margin-right: 50px;
+}
+
+.conteudo{
+    display: flex;
+    max-width: 800px;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 30px 0;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+
+#portifolio{
+    background-color: #f8f1f1;  
+}
+
+.descricao{
+    font-size: 16px;
+    line-height: 22px;
+    color: #828282;
+}
+
+.item{
+    margin-bottom: 16%;
+}
+
+#contato{
+    background-color: #938DF8;
+    height: 198px;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+#contato a{
+    color: #fff;
+    text-decoration: none;
+   
+}
+
+#contato i{
+    color: #fff;
+    padding-left: 50px;
 }
