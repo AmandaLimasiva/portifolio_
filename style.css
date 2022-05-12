@@ -128,3 +128,12 @@ section h1{
     color: #fff;
     padding-left: 50px;
 }
+
+figure{
+    margin-top: 80px;
+    
+}
+
+img{
+    border-radius: 100px;
+}
