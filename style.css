@@ -20,12 +20,12 @@ li{
 .menu{
     position: fixed;
     width: 100%;
-    background-color: #636097;
+    background-color: #45949e;
     display: flex;
     justify-content: flex-end ;
 }
 
-.lista_menu{
+.lista-menu{
     display: flex;
     justify-content: space-evenly;
     width: 50%;
@@ -57,7 +57,7 @@ li{
 }
 
 .title{
-    color: #938DF8;
+    color: #afaddf;
     font-size: 30px;
     font-weight: 700;
 }
@@ -111,7 +111,7 @@ section h1{
 }
 
 #contato{
-    background-color: #636097;
+    background-color: #45949e;
     height: 198px;
     text-align: center;
     padding-top: 40px;
